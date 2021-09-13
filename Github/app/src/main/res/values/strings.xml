@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Github</string>
+    <string name="github">Github</string>
+    <string name="by_philip_indra_prayitno">by Philip Indra Prayitno</string>
+    <string name="username_placeholder">Username Placeholder</string>
+    <string name="name_placeholder">Name Placeholder</string>
+    <string name="github_users">Github Users</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="location_placeholder">Location Placeholder</string>
+    <string name="location">Location</string>
+    <string name="company">Company</string>
+    <string name="company_placeholder">Company Placeholder</string>
+    <string name="repository">Repository</string>
+    <string name="repository_placeholder">Repository Placeholder</string>
+    <string name="_521">521</string>
+    <string name="company_icon">Company Icon</string>
+    <string name="repository_icon">Repository Icon</string>
+    <string name="location_icon">Location Icon</string>
+    <string name="user_avatar">User Avatar</string>
+    <string name="application_logo">Application Logo</string>
+    <string name="search_user">Search user</string>
+    <string name="no_data">No Data</string>
+
+    <string-array name="username">
+        <item>JakeWharton</item>
+        <item>amitshekhariitbhu</item>
+        <item>romainguy</item>
+        <item>chrisbanes</item>
+        <item>tipsy</item>
+        <item>ravi8x</item>
+        <item>jasoet</item>
+        <item>budioktaviyan</item>
+        <item>hendisantika</item>
+        <item>sidiqpermana</item>
+    </string-array>
+
+    <string-array name="name">
+        <item>Jake Wharton</item>
+        <item>Amit Shekhar</item>
+        <item>Romain Guy</item>
+        <item>Chris Banes</item>
+        <item>David</item>
+        <item>Ravi Tamada</item>
+        <item>Deny Prasetyo</item>
+        <item>Budi Oktaviyan</item>
+        <item>Hendi Santika</item>
+        <item>Sidiq Permana</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Pittsburgh, PA, USA</item>
+        <item>New Delhi, India</item>
+        <item>California</item>
+        <item>Sydney, Australia</item>
+        <item>Trondheim, Norway</item>
+        <item>India</item>
+        <item>Kotagede, Yogyakarta, Indonesia</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Bojongsoang - Bandung Jawa Barat</item>
+        <item>Jakarta Indonesia</item>
+    </string-array>
+
+    <string-array name="repository">
+        <item>102</item>
+        <item>37</item>
+        <item>9</item>
+        <item>30</item>
+        <item>56</item>
+        <item>28</item>
+        <item>44</item>
+        <item>110</item>
+        <item>1064</item>
+        <item>65</item>
+    </string-array>
+
+    <string-array name="company">
+        <item>Google, Inc.</item>
+        <item>MindOrksOpenSource</item>
+        <item>Google</item>
+        <item>Google working on @android</item>
+        <item>Working Group Two</item>
+        <item>AndroidHive | Droid5</item>
+        <item>gojek-engineering</item>
+        <item>KotlinID</item>
+        <item>JVMDeveloperID @KotlinID @IDDevOps</item>
+        <item>Nusantara Beta Studio</item>
+    </string-array>
+
+    <string-array name="followers">
+        <item>56995</item>
+        <item>5153</item>
+        <item>7972</item>
+        <item>14725</item>
+        <item>788</item>
+        <item>18628</item>
+        <item>277</item>
+        <item>178</item>
+        <item>428</item>
+        <item>465</item>
+    </string-array>
+
+    <string-array name="following">
+        <item>12</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+        <item>39</item>
+        <item>23</item>
+        <item>61</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="avatar">
+        <item>@drawable/user1</item>
+        <item>@drawable/user2</item>
+        <item>@drawable/user3</item>
+        <item>@drawable/user4</item>
+        <item>@drawable/user5</item>
+        <item>@drawable/user6</item>
+        <item>@drawable/user7</item>
+        <item>@drawable/user8</item>
+        <item>@drawable/user9</item>
+        <item>@drawable/user10</item>
+    </string-array>
+
+    <string name="information">Information</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="favorite_icon">favorite icon</string>
+    <string name="success_remove">Successfully removed %1$s from favorite.</string>
+    <string name="success_add">Successfully added %1$s to favorite.</string>
+    <string name="settings">Settings</string>
+    <string name="reminder">Reminder</string>
+    <string name="on_change">Successfully turned on reminder</string>
+    <string name="off_change">"Successfully turned off reminder"</string>
+    <string name="favorite_button">Favorite Button</string>
+    <string name="favorite">Favorite</string>
+    <string name="reminder_message">Don\'t forget to check the app back</string>
+</resources>

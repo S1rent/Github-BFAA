@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SplashScreenActivity">
+
+    <TextView
+        android:id="@+id/tv_splash_github"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/github"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:paddingTop="64dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:contentDescription="@string/application_logo"
+        android:layout_marginBottom="-48dp"
+        android:layout_above="@id/tv_splash_github"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_github_logo"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/by_philip_indra_prayitno"/>
+
+</RelativeLayout>
