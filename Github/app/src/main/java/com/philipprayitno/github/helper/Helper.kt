@@ -1,9 +1,11 @@
 package com.philipprayitno.github.helper
 
+import android.database.Cursor
 import com.philipprayitno.github.model.RealmUserModel
 import com.philipprayitno.github.model.User
 import com.philipprayitno.github.model.UserAvatar
 import com.philipprayitno.github.model.UserDetailResponseWrapper
+import com.philipprayitno.github.repository.DatabaseContract
 
 class Helper {
     companion object {

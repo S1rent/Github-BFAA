@@ -9,19 +9,19 @@ import retrofit2.http.*
 
 interface UserTarget {
     @GET("search/users")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     suspend fun getUsersByQuery(@Query("q")username: String): UserQueryResponseWrapper
 
     @GET("users/{username}")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     suspend fun getUserDetailByUsername(@Path("username")username: String): UserDetailResponseWrapper
 
     @GET("users/{username}/followers")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     suspend fun getUserFollowerList(@Path("username")username: String): ArrayList<UserResponseWrapper>
 
     @GET("users/{username}/following")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     suspend fun getUserFollowingList(@Path("username")username: String): ArrayList<UserResponseWrapper>
 }
 

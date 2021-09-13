@@ -13,6 +13,8 @@ import com.philipprayitno.github.model.User
 import com.philipprayitno.github.model.UserAvatar
 import com.philipprayitno.github.R
 import com.philipprayitno.github.api.RetrofitUserClient
+import com.philipprayitno.github.repository.DatabaseContract
+import com.philipprayitno.github.repository.GithubProvider
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.lang.Exception
@@ -35,7 +37,7 @@ class MainViewModel: ViewModel() {
             setupLocalUserData(resources)
             return
         }
-
+        Log.d("TESTING", "${GithubProvider().query(DatabaseContract.GITHUB_URI, null, null, null, null)}")
         viewModelScope.launch(Dispatchers.IO) {
             try {
                 val result = RetrofitUserClient.instance
